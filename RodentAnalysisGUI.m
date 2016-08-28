@@ -10,7 +10,7 @@ function varargout = RodentAnalysisGUI(varargin)
 % Edit the GUI:
 % >> guide
 % 
-% Last Modified: 21 August 2016
+% Last Modified: 28 August 2016
 % Copyright (c) 2016, Xenios Milidonis
 
 % Begin initialization code - DO NOT EDIT
@@ -224,9 +224,9 @@ if isfield(info(1), 'YResolution') && ~isempty(info(1).YResolution)
     set(handles.text_yres, 'String', vpixsize);
 end
 
-% Set the number of slices to be analysed (default is central +-3 slices).
-set(handles.text_firstslice, 'String', centralslice - 3);
-set(handles.text_lastslice, 'String', centralslice + 3);
+% Set the default number of slices to be analysed.
+set(handles.text_firstslice, 'String', 1);
+set(handles.text_lastslice, 'String', numofslices);
 
 % Enable/disable some objects.
 set(handles.pushbutton_loadipsi, 'BusyAction', 'queue');
