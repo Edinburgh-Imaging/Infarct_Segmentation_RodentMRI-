@@ -49,8 +49,8 @@ Sprague-Dawley rat that was subjected to permanent middle cerebral artery occlus
 assessing the influence of gender in the progression of ischaemic injury. It was acquired 24 hours 
 post-occlusion with a 7 T MRI scanner and a rapid acquisition with relaxation enhancement (RARE) sequence 
 with parameters:
-  TR = 5086ms
-  Effective TE = 72 ms
+  TR = 5000 ms
+  Effective TE = 47 ms
   RARE factor = 8
   Number of averages = 2
   Matrix size = 256x256 pixels
@@ -65,5 +65,5 @@ of focal cerebral ischaemia. Journal of Cerebral Blood Flow and Metabolism, 36(2
 doi:10.1177/0271678x15606137
 
 
-by Xenios Milidonis, last modified 11 August 2016
+by Xenios Milidonis, last modified 5 October 2016
 email: x.milidonis@sms.ed.ac.uk
