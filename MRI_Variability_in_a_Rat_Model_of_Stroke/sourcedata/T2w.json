@@ -1,9 +1,0 @@
-{
-    "Manufacturer": "Bruker BioSpin MRI GmbH",
-    "ManufacturersModelName": "BioSpec 70/30", 
-    "MagneticFieldStrength": 7,
-    "PulseSequenceType": "RARE",
-    "RepetitionTime": 5.0,
-    "EchoTime": 0.047,
-    "MultibandAccellerationFactor": 8
-}
